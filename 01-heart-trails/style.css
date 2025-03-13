@@ -31,11 +31,11 @@ span {
     100% {
         transform: translate(-50%, -5000%);
         opacity: 0;
-        filter: hue-rotate(10deg);
+        filter: hue-rotate(5deg);
     }
 }
 
-.trigger {
+/* .trigger {
     height: 98vh;
     display: flex;
     align-items: flex-end;
@@ -48,5 +48,5 @@ span {
 
 button, label{
     font-size: 1rem;
-}
+} */
 
