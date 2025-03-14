@@ -1,0 +1,10 @@
+body{
+    background-color: #020202f5;
+    color: #ffffffec;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
