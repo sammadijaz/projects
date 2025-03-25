@@ -152,3 +152,77 @@ section{
   box-sizing: border-box;
   min-height: fit-content;
 }
+
+.section-container{
+  display: flex;
+}
+
+/* Profile section */
+
+.profile{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.section__pic-container{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section__pic-container img{
+  border-radius: 360px;
+}
+
+.section__text{
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p{
+  font-weight: 600;
+}
+
+.section__text__p1{
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.socials-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* Icons */
+
+.icon{
+  cursor: pointer;
+  height: 2rem; 
+}
+
+/* Buttons */
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn{
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border: 2rem;
+}
