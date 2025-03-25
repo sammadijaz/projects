@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+    <!-- navbar -->
     <nav class="navbar">
       <div class="nav-left">Sammad Ijaz</div>
       
@@ -21,6 +22,7 @@
       </div>
     </nav>
 
+    <!-- hamburger nav -->
     <nav class="hamburger-nav">
       <div class="nav-left">Sammad Ijaz</div>
 
@@ -41,6 +43,30 @@
       </div>
 
     </nav>
+
+    <!-- sections -->
+     <section class="profile">
+      <div class="section__pic-container">
+        <img src="./assets/linkedin-profile-pic.jpeg" alt="John Doe profile picture">
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sammad Ijaz</h1>
+        <p class="section__text__p2">Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Web-Dev-Resume.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href = '#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div class="socials-container">
+          <img src="./assets/linkedin.png" alt="My Linkedin" class="icon" onclick="location.href = 'https://www.linkedin.com/in/sammadijaz/'">
+          <img src="./assets/github.png" alt="My Github" class="icon" onclick="location.href = 'https://github.com/sammadijaz'">
+        </div>
+      </div>
+     </section>
 
     <script src="script.js"></script>
   </body>
